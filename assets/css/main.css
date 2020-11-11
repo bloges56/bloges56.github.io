@@ -7,26 +7,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-article.box.style2 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-}
-
-.intro-links{
-	display:flex;
-	margin-bottom: 2em;
-	align-items: flex-end;
-}
-
-.intro-links h1{
-	margin: 0;
-	font-size: 3em;
-	height: 1em;
-}
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1957,10 +1937,14 @@ input, select, textarea {
 
 		.box.style2 .image {
 			position: relative;
-			left: 2em;
+			display: flex;
+			align-items: center;
+			justify-items: center;
+			/* left: 2em;
 			top: 2em;
-			margin: -4em 0 4em -4em;
-			width: auto;
+			margin: -4em 0 4em -4em; */
+			margin-bottom: 2em;
+			height: 8em;
 		}
 
 /* Icons */
@@ -2466,3 +2450,29 @@ input, select, textarea {
 					}
 
 	}
+
+/* My added styles */
+
+.image.featured {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.image.featured > img {
+	width:auto;
+}
+
+.intro-links{
+	display:flex;
+	margin-bottom: 2em;
+	align-items: flex-end;
+}
+
+.intro-links h1{
+	margin: 0;
+	font-size: 3em;
+	height: 1em;
+}
+
