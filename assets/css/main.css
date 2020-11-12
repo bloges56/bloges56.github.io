@@ -2459,6 +2459,9 @@ input, select, textarea {
 	justify-content: center;
 	margin: 0;
 }
+.image.featured.logo {
+	height: 5em;
+}
 
 .image.featured > img {
 	width:auto;
